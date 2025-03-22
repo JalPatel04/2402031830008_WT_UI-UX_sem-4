@@ -1,0 +1,162 @@
+.app-container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #6ed1d4;
+}
+
+.main-header {
+    width: 100%;
+    height: 110px;
+    background-color: #242581;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 19px;
+}
+
+.header-logo {
+    width: 81px;
+    height: 81px;
+}
+
+.search-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.search-form {
+    width: 710px;
+    height: 55px;
+    border-radius: 27.5px;
+    background-color: #50507f;
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+    padding: 0 31px;
+}
+
+.search-icon {
+    width: 55px;
+    height: 55px;
+}
+
+.search-text {
+    font-size: 40px;
+    font-family: 'Frank Ruhl Libre', serif;
+    margin-left: 51px;
+}
+
+.main-content {
+    padding: 40px 365px;
+}
+
+.main-title {
+    font-size: 40px;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+.featured-section {
+    margin-top: 83px;
+    width: 710px;
+    height: 210px;
+    border-radius: 31px;
+    border: 1px solid #000;
+    background-color: #50507f;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    padding: 31px;
+}
+
+.featured-title {
+    font-size: 32px;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-weight: 700;
+}
+
+.featured-description {
+    font-size: 32px;
+    font-family: 'Fuzzy Bubbles', cursive;
+    margin-top: 10px;
+}
+
+.learning-section {
+    margin-top: 46px;
+}
+
+.learning-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.learning-title {
+    font-size: 40px;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+.see-more-link {
+    font-size: 32px;
+    font-family: 'Fuzzy Bubbles', cursive;
+    text-decoration: none;
+    color: inherit;
+}
+
+.learning-banner {
+    margin-top: 32px;
+    width: 710px;
+    height: 210px;
+    border-radius: 31px;
+    border: 5px solid #000;
+}
+
+.main-footer {
+    width: 100%;
+    height: 110px;
+    background-color: #242581;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 305px;
+}
+
+.footer-logo-left,
+.footer-logo-right {
+    width: 80px;
+    height: 80px;
+}
+
+.footer-logo-center {
+    width: 100px;
+    height: 61px;
+}
+
+@media (max-width: 991px) {
+    .main-content {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .featured-section {
+        width: 100%;
+    }
+    .learning-banner {
+        width: 100%;
+    }
+    .main-footer {
+        gap: 100px;
+    }
+}
+
+@media (max-width: 640px) {
+    .search-container {
+        display: none;
+    }
+    .main-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .main-footer {
+        gap: 50px;
+    }
+}
